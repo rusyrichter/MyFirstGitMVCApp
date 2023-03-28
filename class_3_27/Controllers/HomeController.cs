@@ -9,6 +9,10 @@ namespace class_3_27.Controllers
         public IActionResult Index()
         {
             return View();
-        }       
+        }
+        public IActionResult Privacy()
+        {
+            return View();
+        }
     }
 }
